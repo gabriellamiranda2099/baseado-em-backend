@@ -1,0 +1,28 @@
+const dadosDoAluno = require('./aluno.json');
+
+console.log("--- Sistema escolar ---");
+console.log(`Nome: ${dadosDoAluno.nome}`);
+console.log(`Curso: ${dadosDoAluno.curso}`);
+console.log (`Idade : ${dadosDoAluno.idade}`);
+if (dadosDoAluno.bolsista) {
+console.log ("Status: Este aluno possui isenção de mensalidade.");
+} else{
+console.log("Status: Mensalidade padrão");
+};
+
+//Alterar o tipo de bolsa
+//Adicione a saida idade
+
+{
+"matricula": "2026AB12",
+"nome": "Genesio Fonseca",
+"idade": 17,
+"curso": "Desenvolvimento de Sistemas",
+"notas": [8.5, 9.0, 7.5],
+"bolsista": false,
+"endereco": {
+"cidade": "Curitiba",
+"estado": "Paraná"
+}
+
+}
